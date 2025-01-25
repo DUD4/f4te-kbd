@@ -1,0 +1,8 @@
+# Copyright (c) 2020 Pete Johanson
+# SPDX-License-Identifier: MIT
+
+config SHIELD_F4TE_KBD_LEFT
+    def_bool $(shields_list_contains,f4te-kbd_left)
+
+config SHIELD_F4TE_KBD_RIGHT
+    def_bool $(shields_list_contains,f4te-kbd_right)

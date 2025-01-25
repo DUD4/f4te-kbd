@@ -1,0 +1,16 @@
+if SHIELD_CORNE_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "F4te KBD"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_F4TE_KBD_LEFT || SHIELD_F4TE_KBD_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

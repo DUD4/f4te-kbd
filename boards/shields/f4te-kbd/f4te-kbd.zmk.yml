@@ -1,0 +1,12 @@
+file_format: "1"
+id: f4te-kbd
+name: F4te-kbd
+type: shield
+url: https://github.com/dud4/f4te-kbd/
+requires: [pro_micro]
+features:
+  - keys
+  - studio
+siblings:
+  - f4te-kbd_left
+  - f4te-kbd_right
