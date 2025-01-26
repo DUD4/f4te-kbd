@@ -1,4 +1,4 @@
-if SHIELD_CORNE_LEFT
+if SHIELD_F4TE_KBD_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "F4te KBD"
