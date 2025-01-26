@@ -5,8 +5,8 @@
 # pass flags to the build command, `snippet` to add a Zephyr snippet, and
 # `artifact-name` to assign a name to distinguish build outputs from each other:
 #
-board: [ "nice_nano_v2" ]
-shield: [ "f4te-kbd_left", "f4te-kbd_right" ]
+#board: [ "nice_nano_v2" ]
+#shield: [ "f4te-kbd_left", "f4te-kbd_right" ]
 # include:
 #   - board: bdn9_rev2
 #   - board: nice_nano_v2
@@ -18,3 +18,8 @@ shield: [ "f4te-kbd_left", "f4te-kbd_right" ]
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: nice_nano_v2
+    shield: corne_left
+  - board: nice_nano_v2
+    shield: corne_right
