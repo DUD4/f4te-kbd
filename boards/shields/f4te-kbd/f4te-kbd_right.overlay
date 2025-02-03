@@ -7,11 +7,11 @@
 #include "f4te-kbd.dtsi"
 
 &default_transform {
-    col-offset = <6>;
+    row-offset = <6>;
 };
 
 &kscan0 {
-    col-gpios
+    row-gpios
         = <&pro_micro 14 GPIO_ACTIVE_HIGH>
         , <&pro_micro 15 GPIO_ACTIVE_HIGH>
         , <&pro_micro 18 GPIO_ACTIVE_HIGH>
