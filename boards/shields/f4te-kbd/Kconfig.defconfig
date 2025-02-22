@@ -6,6 +6,9 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config ZMK_STUDIO
+    default y
+
 endif
 
 if SHIELD_F4TE_KBD_LEFT || SHIELD_F4TE_KBD_RIGHT
