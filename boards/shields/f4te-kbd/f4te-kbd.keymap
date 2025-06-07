@@ -32,7 +32,7 @@
 // |               | RS(1)      | RS(2)      | RS(3)      | RS(4)      | RS(5)        |    ---    | LS(6)    | LS(7)      | LS(8)      | LS(9)     | LS(0)         |        |
 //                                           | mo 3       |            |              |    ---    | DEL      |            | mo 3       |
                         bindings = <
-   &trans          &trans       &trans       &trans       &trans       &trans                     &trans     &trans       &trans       &tans       &trans          &trans
+   &trans          &trans       &trans       &trans       &trans       &trans                     &trans     &trans       &trans       &trans       &trans          &trans
    &trans          &kp N1       &kp N2       &kp N3       &kp N4       &kp N5                     &kp N6     &kp N7       &kp N8       &kp N9      &kp N0          &trans
    &trans          &kp RS(N1)   &kp RS(N2)   &kp RS(N3)   &kp RS(N4)   &kp RS(N5)                 &kp RS(N6) &kp LS(N7)   &kp LS(N8)   &kp LS(N9)  &kp LS(N0)      &trans
                                              &mo 3        &trans       &trans                     &kp DEL    &trans       &mo 3
@@ -47,7 +47,7 @@
                         bindings = <
    &trans          &trans       &trans       &trans       &trans       &trans                     &kp HOME   &kp PG_DN    &kp PG_UP    &kp END     &trans          &trans
    &bt BT_CLR      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4               &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT   &kp MINUS       &kp EQUAL
-   &trans          &trans       &trans       &trans       &trans       &trans                     &trans     &trans       &trans       &tans       &trans          &trans
+   &trans          &trans       &trans       &trans       &trans       &trans                     &trans     &trans       &trans       &trans      &trans          &trans
                                              &trans       &mo 3        &trans                     &trans     &mo 3        &trans
                         >;
                 };
@@ -58,9 +58,9 @@
 // |               |            |            |            |            |              |    ---    |          | Vol Mute   |            |           |               |        |
 //                                           |            |            |              |    ---    |          |            |            |
                         bindings = <
-   &studio_unlock &trans       &trans        &trans       &trans       &trans                     &trans     &kp C_VOL_UP &kp C_VOL_DN &tans       &trans          &trans
+   &studio_unlock &trans       &trans        &trans       &trans       &trans                     &trans     &kp C_VOL_UP &kp C_VOL_DN &trans       &trans          &trans
    &kp F11        &kp F1       &kp F2        &kp F3       &kp F4       &kp F5                     &kp F6     &kp F7       &kp F8       &kp F9      &kp F10         &kp F12
-   &trans         &trans       &trans        &trans       &trans       &trans                     &trans     &kp C_MUTE   &trans       &tans       &trans          &trans
+   &trans         &trans       &trans        &trans       &trans       &trans                     &trans     &kp C_MUTE   &trans       &trans       &trans          &trans
                                              &trans       &trans       &trans                     &trans     &trans       &trans
                         >;
                 };
