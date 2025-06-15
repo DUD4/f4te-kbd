@@ -8,6 +8,10 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+&mt {
+    flavor = "balanced";
+}
+
 / {
         keymap {
                 compatible = "zmk,keymap";
@@ -40,13 +44,13 @@
                 };
                 specialkey_layer {
 // -----------------------------------------------------------------------------------------
-// |               |            |            |            |            |              |    ---    |          |            |            |           |               |        |
-// | BT CLEAR      | BT 0       | BT 1       | BT 2       | BT 3       | BT 5         |    ---    | Left     | Down       | Up         | Right     | -             | =      |
+// | BT CLEAR      | BT 0       | BT 1       | BT 2       | BT 3       | BT 4         |    ---    |          |            |            |           |               |        |
+// |               |            |            |            |            |              |    ---    | Left     | Down       | Up         | Right     | -             | =      |
 // |               |            |            |            |            |              |    ---    |          |            |            |           |               |        |
 //                                           |            | mo 3       |              |    ---    |          | mo 3       |            |
                         bindings = <
-   &trans          &trans       &trans       &trans       &trans       &trans                     &kp HOME   &kp PG_DN    &kp PG_UP    &kp END     &trans          &trans
-   &bt BT_CLR      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4               &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT   &kp MINUS       &kp EQUAL
+   &bt BT_CLR      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4               &kp HOME   &kp PG_DN    &kp PG_UP    &kp END     &trans          &trans
+   &trans          &trans       &trans       &trans       &trans       &trans                     &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT   &kp MINUS       &kp EQUAL
    &trans          &trans       &trans       &trans       &trans       &trans                     &trans     &trans       &trans       &trans      &trans          &trans
                                              &trans       &mo 3        &trans                     &trans     &mo 3        &trans
                         >;
